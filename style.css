@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px;
+    margin-left:400px;
+    width:500px;
+    
+}
+.header1{
+    margin-right:12px;
+}
+.header3{
+    margin-left:12px;
+}
+#first{
+    width:190px;
+    text-align: center;
+    height: 50px;
+    animation-name: ayush;
+    animation-iteration-count:infinite;
+    animation-duration: 1s;
+    font-size: 18px;
+    border:1px solid red;
+    color:rgb(236, 52, 52);
+}
+h2{
+    animation-name: astha;
+    text-align: center;
+    animation-duration: 2s;
+    border:2px soild red;
+    background-color: wheat;
+    animation-iteration-count: infinite;
+}
+@keyframes astha {
+    30%{background-color: rgb(252, 6, 47);}
+    40%{background-image: linear-gradient rgb(216, 149, 149)}
+    50%{background-color:yellowgreen;}
+    60%{background-color: rgb(206, 22, 206);}
+}
+#love{
+    width:250px;
+    text-align: center;
+    height: 50px;
+    color:rgb(251, 4, 4);
+    animation-name: ayush;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    font-size:18px;
+    border:1px solid red;
+}
+@keyframes ayush {
+    50%{color:blue;color: yellowgreen;}
+    40%{
+        color:mediumorchid;   
+    }
+} 
+#button{
+    margin-left:600px;
+    width:120px;
+    height:40px;
+    margin-top:1px; 
+}
+#answer{
+    margin-left:560px;
+    margin-top:10px;
+    height:50px;
+    width:190px;
+    font-size: 58px;
+    text-align: center;
+    color: red;
+    border:1px solid red;
+    animation-name:moon;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes moon {
+    40%{font-size:30px;} 
+}
+#button{
+    background-color:rgb(251, 146, 146);
+    animation-name: prachi;
+    color:aqua;
+    font-size:23px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes prachi  {
+ 20%{background-color:red;}
+ 40%{background-color:blue;} 
+}
+body{
+
+background-image:url(wallpaper3.jpg);
+animation-name: radhe;
+animation-iteration-count: infinite;
+animation-duration: 20s;
+}
+@keyframes radhe {
+    50%{background-image: url(wallpaper4.jpg);}
+    40%{background-image: url(wallpaper5.jpg);}
+    30%{background-image: url(wallpaper6.jpg);}
+    20%{background-image: url(wallpaper7.jpg);}
+    
+}
